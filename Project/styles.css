@@ -1,0 +1,30 @@
+.external-nav-td {
+	padding: 7px;
+	text-align: center;
+	vertical-align: middle; /* aligns my nav bar*/
+
+}
+.external-nav-a {
+	color: brown;/* edit text on nav table*/
+	font-size: 15px;
+	text-decoration: none;
+}
+.external-style-body {
+	background-color: tan;/* making background tan*/
+}
+.external-h1{ /*making edits to the main tille heading for each page*/
+	text-align: center;
+	color: purple;
+}
+.external-nav-table { /* edits to the navtable*/
+	margin: 0 auto;
+	border-collapse: collapse;
+	width: 75%;
+	background-color: yellow;
+}
+.external-h2 { /*edits to the sub headings on each page*/
+    color: #4B5320; 
+    text-align: center; 
+    font-size: 2em; 
+    margin: 20px 0; 
+}
