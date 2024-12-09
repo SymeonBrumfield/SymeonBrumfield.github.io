@@ -109,7 +109,8 @@ $(document).ready(function () {
         headers: { 'X-Api-Key': apiKey},
         method: 'GET',
         success: function(data) {
-        const quoteText = data.content;
+            consoloe.log('API Response:', data);
+        const quoteText = data[0].quote;
         const quoteAuthor = data[0].author;
 
         $('#quote-text').text(`"${quoteText}"`);
