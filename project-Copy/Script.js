@@ -106,10 +106,11 @@ $(document).ready(function () {
     function fetchQuote() {
     $.ajax({
         url: apiUrl,
+        headers: { 'X-Api-Key': apiKey},
         method: 'GET',
         success: function(data) {
-        const quoteText = data.content;
-        const quoteAuthor = data.author;
+        const quoteText = data[0].content;
+        const quoteAuthor = data[0].author;
 
         $('#quote-text').text(`"${quoteText}"`);
         $('#quote-author').text(`- ${quoteAuthor}`);
