@@ -1,0 +1,273 @@
+body {   /*background color for the entire page*/
+    background-color: black;
+}
+h1 {     /* Formats the main title */
+    text-align: center;
+    color: #ed871d;
+    font-size: 4em;
+    font-family: sans-serif;
+}
+
+.image-container {   /*centers the logo image*/
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+table {    /*styles the navigation menu*/
+        width: 100%;
+        background-color: #f33f34;
+        text-align: center;
+}
+
+td {     /* Styles individual table cells */
+    padding: 20px; /* Adds padding around the text */
+}
+
+table a {      /* Styles links within the table */
+        color: #fbfbfb;
+        font-size: 1.5em;
+        text-decoration: none;
+        font-weight: bold;
+}
+
+h2 {       /* Formats subtitles */
+    text-align: center;
+    color: #fbfbfb;        
+}
+
+h3 {       /* Formats subtitles */
+    text-align: center;
+    color: #fbfbfb;        
+}
+strong {    /* Formats strong text */
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: #fbfbfb;
+}
+p {         /* Formats paragraphs */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    color: #fbfbfb;
+}
+.menu-cointaner {     /* Styles the menu container */ 
+    border: 2px solid #e32020;
+    padding:10px;
+    border-radius: 5px;
+}
+.menu {    /* Styles the menu list */
+    list-style-type: none;
+    padding: 0; 
+    margin: 0; 
+}
+
+.menu li {     /* Styles list items in the menu */
+    margin: 10px 0; 
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+footer {     /* Styles the footer */
+    text-align: center;
+}
+
+.location-container {  /* Styles the map container */
+    display: flex;              
+    justify-content: center;     
+    align-items: center;         
+    height: 100%;
+}
+.centered-text {   /* Centers text within an element */
+    text-align: center;
+}
+
+.photo-container {   /* Styles the photo gallery container */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Slick slider customization */
+.slick-slider {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.slick-slide img {  
+    /* Styles images within the photo container */
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Adjusts the layout of the slider items */
+.slick-list {
+    margin-bottom: 20px;
+}
+
+/* Navigation button styles for Slick slider */
+.slick-prev, .slick-next {
+    color: #ed871d;
+    font-size: 30px;
+    z-index: 1;
+}
+
+.slick-prev:hover, .slick-next:hover {
+    color: #f33f34;
+}
+
+.slick-dots li button:before {
+    color: #ed871d;
+    font-size: 12px;
+}
+
+.photo-container img {  /* Styles images within the photo container */
+    width: 200px;
+    height: 200px;
+}
+
+.comments-container {     /* Styles the comments section */
+    background-color: whitesmoke;
+    padding: 20px;
+    border: 1px solid #ccc; 
+    text-align: left;
+}
+.comments-container p {     /* Styles paragraphs within the comments section */
+    color:black;
+}
+
+
+.navigation-table {   /* Styles the second navigation table */
+    width: 50%;
+    background-color:#138d75 ;
+    text-align: center;
+    margin:20px auto;
+
+}
+
+.navigation-table td {     /* Styles cells in the navigation table */
+    padding: 10px;
+}
+
+
+.navigation-table a {      /* Styles links in the navigation table */
+        color: #fbfbfb;
+        font-size: 1.5em;
+        text-decoration: none;
+        font-weight: bold;
+}
+
+
+.story-container {    /* Styles the story section */
+    display: flex;
+    align-items: flex-start;
+    margin: 20px;
+
+}
+
+.text-container {     /* Styles the text container within the story section */
+    flex: 1;
+    margin-right:20px;
+}
+
+.owners-container {   /* Styles the owners' container */
+    flex: 0 0 auto;
+}
+
+.owners-container img {   /* Styles images within the owners' container */
+    max-width: 100%;
+    height: auto;
+}
+
+/* Styling for reservation form and confirmation */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #ed871d;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d16f15;
+}
+
+#reservation-result {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.2em;
+    color: #28a745;
+}
+
+/* Additional styling for reviews */
+.reviews-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.review {
+    margin-bottom: 15px;
+}
+
+.review p {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+
+#weather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#weather-info {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+#weather img {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}

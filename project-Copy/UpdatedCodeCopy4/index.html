@@ -1,0 +1,223 @@
+<!-- This section is the html initial instructions to start a website. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jonny’s Taquería</title>  <!-- Sets the title of the webpage -->
+    <meta name="author" content="Nestor Compean"> <!-- Specifies the author of the page -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+    <header>
+      <!-- The title and image for the restaurant that will be used in all my pages -->
+        <h1>Jonny’s Taquería</h1>
+        <div class="image-container">
+          <img src="images/logo.jpg" alt="logo" width="500"> <!-- Logo image for the restaurant -->
+        </div>
+        <br>
+        <nav>
+            <!-- This is the navigation menu on the top of the page, placed in a table which will be formatted in the CSS file. 
+              The navigation menu provides access to the other pages on website.
+            (1) "about.html": provides the user information and image of the owners.
+            (2) "reviews.html": provides the user with the option to input and see reviews of the restaurant.
+            (3) "photos.html": provides images of different menu items and specials. 
+            (4) "location.html: provide the user with information about the restaurant's location and contact information. -->
+            <table>
+              <tr>
+                <td><a href="index.html">Home</a></td>
+                <td><a href="about.html">About Us</a></td>
+                <td><a href="location.html">Location</a></td>
+                <td><a href="photos.html">Photos</a></td>
+                <td><a href="reviews.html">Reviews</a></td>
+              </tr>
+            </table>
+            <!-- For the sub navigation bar for sections within this page. Within each section there is an ID name which is linked to the sub navigation bar selections. This allows the use to move to that part of the webpage.-->
+            <br><br>
+            <table class="navigation-table">
+            <!-- Sub-navigation bar for sections within this page, linking to specific sections -->
+
+              <tr>
+                <td><a href="#Menu">Menu</a></td>
+                <td><a href="#Specials">Specials</a></td>
+                <td><a href="#Sides">Sides</a></td>
+                <td><a href="#Drinks">Drinks</a></td>
+
+              </tr>
+            </table>
+        </nav>
+    </header>
+
+    <main>
+        <!-- This section is for the menu items. It includes their names, price and they are placed in a list form using the (li) and subdivided using the (p), the (strong) bolds the name of the menu item-->
+        <section id="Menu">
+            <h2>Menu</h2>
+            <div class="menu-container">
+              <ul class="menu">
+                <li>
+                    <strong>Taco Jonny's</strong>
+                    <p>Fajita de pollo, fajita de res, tocino chorizo, salchicha, champiñones, cebolla, queso mozarella.</p>
+                    <p>$10.99</p>
+                </li>
+                <li>
+                    <strong>Tacos de Bistecs</strong>
+                    <p>$1.25</p>
+                </li>
+                <li>
+                    <strong>Tacos de Tripa</strong>
+                    <p>$1.45</p>
+                </li>
+                <li>
+                    <strong>Tacos de Pastor</strong>
+                    <p>$1.45</p>
+                </li>
+                <li>
+                    <strong>Tacos de Molleja</strong>
+                    <p>$1.25</p>
+                </li>
+                <li>
+                    <strong>Tacos de BBQ</strong>
+                    <p>$1.35</p>
+                </li>
+                <li>
+                    <strong>Tacos Rojos Desebrada</strong>
+                    <p>$7.99</p>
+                </li>
+                <li>
+                    <strong>T.h. Desebrada</strong>
+                    <p>$5.99</p>
+                </li>
+                <li>
+                    <strong>T.h. Pastor</strong>
+                    <p>$5.99</p>
+                </li>
+                <li>
+                    <strong>T.h. Fajita</strong>
+                    <p>$5.99</p>
+                </li>
+                <li>
+                    <strong>Flautas de Pollo</strong>
+                    <p>$5.99</p>
+                </li>
+                <li>
+                    <strong>Torta de Bistec</strong>
+                    <p>$5.99</p>
+                </li>
+                <li>
+                    <strong>Torta Dd Desebrada</strong>
+                    <p>$5.99</p>
+                </li>
+                <li>
+                    <strong>Panchos de Fajita</strong>
+                    <p>$8.99</p>
+                </li>
+                <li>
+                    <strong>Flautas de Desebrada</strong>
+                    <p>$6.99</p>
+                </li>
+                <li>
+                    <strong>Tostadas de Desebrada</strong>
+                    <p>$6.99</p>
+                </li>
+                <li>
+                    <strong>Hamburguesa Mexicana</strong>
+                    <p>$10.99</p>
+                </li>
+                <li>
+                    <strong>Hamburguesa Combo</strong>
+                    <p>$9.99</p>
+                </li>
+            </ul>
+          </div>
+        </section>
+        <!-- TThis section is for the mspecials items. It includes their names, price and they are placed in a list form using the (li) and subdivided using the (p), the (strong) bolds words around them.  -->
+        <section id="Specials">
+            <h2>Specials</h2>
+            <div class="menu-container">
+              <ul class="menu">
+                <li>
+                    <strong>Especial de Jueves</strong>
+                    <p>(2) gringas, (2) frijoles charro, (2)cocas.</p>
+                    <p>$15.00</p>
+                </li>
+                <li>
+                    <strong>Viernes de Especial</strong>
+                    <p>(2) tortas de bistec/desebrada, (2) frijoles, (2)refrescos.</p>
+                    <p>$15.00</p>
+                </li>
+                <li>
+                    <strong>Especial Tacos Rojos</strong>
+                    <p>6 tacos rojos(desebrada,cebollita con chile abanero, repollo y cebolla asada), 1 coca.</p>
+                    <p>$7.99</p>
+                </li>
+                <li>
+                    <strong>Cena Para 2 Miercoles</strong>
+                    <p>2 ordenes de (6) falutas pollo/desebrada, (2)frijoles, (2) coca de lata.</p>
+                    <p>$15.00</p>
+                </li>
+              </ul>
+            </div>
+
+        </section>
+        <!-- This section is for the side items. It includes their names, price and they are placed in a list form using the (li) and subdivided using the (p), the (strong) bolds the side item name. -->
+        <section id="Sides">
+            <h2>Sides</h2>
+            <div class="menu-container">
+              <ul class="menu">
+                <li>
+                    <strong>Frijoles Charros</strong>
+                    <p>$1.75</p>
+                </li>
+                <li>
+                    <strong>Frijoles Especiales</strong>
+                    <p>$2.99</p>
+                </li>
+              </ul>
+            </div>
+        </section>
+        
+        <!-- The same concepts from the previous section for menu were used on this part. -->
+        <section id="Drinks">
+            <h2>Drinks</h2>
+            <div class="menu-container">
+              <ul class="menu">
+                <li>
+                    <strong>Limonada</strong>
+                    <p>$3.99</p>
+                </li>
+                <li>
+                    <strong>Pepino/Pina</strong>
+                    <p>$3.99</p>
+                </li>
+                <li>
+                    <strong>Cocas Mexicana</strong>
+                    <p>$3.99</p>
+                </li>
+                <li>
+                    <strong>Coca</strong>
+                    <p>$1.99</p>
+                </li>
+                <li>
+                    <strong>Sprite</strong>
+                    <p>$1.99</p>
+                </li>
+                <li>
+                    <strong>Dr. Pepper</strong>
+                    <p>$1.99</p>
+                </li>
+              </ul>
+            </div>
+        </section>
+    </main>
+    <!-- This is the footer part of the page. In this part (a) was used to add a link to the validation link for both CSS and HTML.  -->
+    <footer>
+        <p class="centered-text">&copy;2024 Jonny's Taqueria.<br>
+        All rights reserved.<br><br>
+
+        <a href="https://validator.w3.org/check?uri=referer" referrerpolicy="unsafe-url">Validate HTML</a> <br>
+
+        <a href="https://jigsaw.w3.org/css-validator/check/referer" referrerpolicy="unsafe-url">Validate CSS</a>
+    </footer>
+
+</body>
+</html>
