@@ -98,7 +98,9 @@ $(document).ready(function() {
     });
 });
 $(document).ready(function () {
-    const apiUrl = "https://zenquotes.io/api/random";
+    const apiKey = 'azxNqCjiiAi5kluv9xPaZQ==yzQSqcBSKDg5XHwP';
+
+    const apiUrl = "https://api.api-ninjas.com/v1/quotes?category=food";
 
     // Function to fetch and display a random quote
     function fetchQuote() {
