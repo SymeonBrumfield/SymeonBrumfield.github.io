@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jonny’s Taquería - Reviews</title>
+    <meta name="author" content="Nestor Compean">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- Include jQuery UI CSS for Datepicker -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <!-- Include jQuery and jQuery UI JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+</head>
+<body>
+    
+    <header>
+        <h1>Jonny’s Taquería - Reviews</h1>
+        <div class="image-container">
+          <img src="images/logo.jpg" alt="logo" width="500">
+        </div>
+        <br>
+        <nav>
+            <table>
+              <tr>
+                <td><a href="index.html">Home</a></td> 
+                <td><a href="about.html">About Us</a></td> 
+                <td><a href="location.html">Location</a></td>  
+                <td><a href="photos.html">Photos</a></td> 
+                <td><a href="reviews.html">Reviews</a></td>
+              </tr>
+            </table>
+        </nav>
+    </header>
+    
+    <main>
+        <br><br>
+        
+        <!-- Reservation Form Section -->
+        <section id="Reservations">
+            <h2>Make a Reservation</h2>
+            <form id="reservation-form">
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="reservation-date">Reservation Date:</label>
+                    <input type="text" id="reservation-date" name="reservation-date" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Reserve Now</button>
+                </div>
+            </form>
+            <div id="reservation-result"></div>
+        </section>
+
+        <br><br>
+
+        <!-- Reviews Section -->
+        <section id="Reviews">
+            <div class="comments-container">
+            <!-- Each <p> contains a user review. <br> is used to create spacing between reviews -->
+            <p>We tried the gringa and it didn't disappoint. We will be coming back soon!!</p>
+            <br>
+            <p>Perfect taqueria to go to! Best food in town for sure</p>
+            <br>
+            <p>Great food, definitely worth the price. Go to spot for life.</p>
+            <br>
+            <p>Brownsville's best,love the food ,fast service and friendly environment 🙂👌</p>
+            <br>
+            <p>Great place to eat at affordable prices</p>
+            <br>
+        </div>
+
+        <div class="comment-section">
+            <h3>Leave a Comment</h3> <!-- Subheader for the comment submission section -->
+            <textarea placeholder="Write your review here..." cols="50"></textarea>
+            <br>
+            <button type="button">Submit</button> <!-- Button to submit the comment -->
+        </div>
+        </section>
+    </main>
+
+    <footer>
+        <p class="centered-text"> &copy;2024 Jonny's Taqueria. All rights reserved</p>
+        <a href="https://validator.w3.org/check?uri=referer" referrerpolicy="unsafe-url">Validate</a> <br>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer" referrerpolicy="unsafe-url">Validate CSS</a>
+    </footer>
+
+    <!-- Include the external script.js -->
+    <script src="script.js"></script>
+
+</body>
+</html>
